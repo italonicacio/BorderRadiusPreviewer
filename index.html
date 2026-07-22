@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <style>
+
+        #body_style {
+            background-color: rgb(73, 230, 218);
+        }
+
+        #border {
+            background-color: rgb(245, 169, 81);
+            text-align: center;
+            border: rgb(10, 50, 97);
+            border-style: solid;
+            padding: 50px;
+            width: 50%;
+            height: 60%;
+            margin: auto;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        #input {
+            
+            
+        }
+
+        #border_tl {
+            text-align: left;
+        }
+        #border_tr {
+            text-align: right;
+        }
+        #border_bl {
+            text-align: left;
+        }
+        #border_br {
+            text-align: right;
+        }
+
+        #h1_style {
+            text-align: center;
+            color: white;
+
+        }
+
+        #input_style {
+            color: red;
+        }
+
+    </style>
+
+    <script>
+        function modification(event) {
+            console.log(event)
+        }
+    </script>
+</head>
+
+<body id = body_style>
+    <h1 id = h1_style> Border-radius Previewer </h1>
+    <div>
+
+    
+        
+        <form id="input" >
+
+           <div id="border_tl"> <input type="number" id="input_tl" onkeypress="modification()"> </div> 
+            
+           <div id="border_tr"> <input type="number" id="input_tr" onkeypress="modification()"> </div> 
+            
+           <div id="border_bl"> <input type="number" id="input_bl" onkeypress="modification()"> </div>
+
+           <div id="border_br"> <input type="number" id="input_br" onkeypress="modification()"> </div> 
+
+        </form>
+
+        <div id = border>
+            <div>
+
+            </div>
+
+        </div>
+
+    </div>
+   
+
+</body>
+
+
+</html>
